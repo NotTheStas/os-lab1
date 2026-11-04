@@ -1,5 +1,3 @@
-set -e
-
 git pull
 
 cmake -S . -B build_linux -DCMAKE_BUILD_TYPE=Debug
